@@ -1,15 +1,11 @@
 # Movie-similarity-based-on-plot-summaries
 
-Natural Language and Text Analytics course project, Columbia University(2019 Fall)
+Applied Text and Natural Language Analytics course project, Columbia University(2019 Fall)
 
 Teammates: @Zoe0409; Yingyi Lang
 
 ## Background: 
-We all love watching movies! Most people have a preference for movies of a similar genre. 
-Websites such as Netflix provide lists of movies based on genres, which makes it easier for users to select the movie that interests 
-them based on the genre he/she is more inclined towards. 
-Also, users can find similar movies and TVs on Taste, 
-which is a platform that personalizes recommendations based on users’  ratings and reviews. The algorithm behind is based on the users’ ratings.
+
 
 
 ## Problems to solve: 
