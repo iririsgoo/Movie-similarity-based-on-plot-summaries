@@ -17,14 +17,22 @@ The number of ratings for new released movies would be very limited, making it h
 Facing the above two problems of current movie recommender systems, we proposed to find movie similarity from plot summaries using k-means and we will visualize the result.
 
 ## Data Source: 
-We will use beautifulsoup package to scrape IMDB’s movie name, genre and plot summaries. 
-We will also manually fill a test set to evaluate the unsupervised model.
+1. scrape IMDB’s movie name, genre and plot summaries. 
+
 
 ## Research Design: 
-The first step is to use the NLTK package to tokenize plot summaries into individual sentences or words and stem the words. 
-We consider wrapping tokenization and stemming in a function to handle a large amount of data, passing the text as the function argument to be tokenized and stemmed. 
-To convert textual plot summaries to numbers for the computer to be able to extract meaning from them, we will create a TF-IDF Vectorizer to recognize words that are unique and important to the documents. 
-We can pass the wrapping function as the tokenizer argument while creating the TF-IDF vector of the text. After that, we will be able to calculate the similarity distance for all of our movies using cosine_similarity from the sklearn package. 
+Our project includes four parts:
+1. Data Collection: (Saved in dataset folder)
+
+2. Exploratory Data Analysis: [code](IMDB movies exploratory data analysis.ipynb)
+
+3. Topic Modeling: (Saved in analysis folder -- [code](IMDB Movies topic modeling using sklearn.ipynb)
+
+4. Similarity Calculation: We used two bases to calculate similarity
+
+* Key words: [code](IMDB Movies similarity from key words.ipynb)
+
+* Plot summaries: [code](IMDB Movies similarity from plot summaries.ipynb)
 
 
 ## Expected Output: 
