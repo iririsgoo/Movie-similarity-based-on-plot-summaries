@@ -19,15 +19,15 @@ Facing the above two problems of current movie recommender systems, we proposed 
 ## Research Design: 
 1. Data Collection: [dataset](dataset.csv)
 
-2. Exploratory Data Analysis: [code](IMDB movies exploratory data analysis.ipynb)
+2. Exploratory Data Analysis: [code](IMDB%20movies%20exploratory%20data%20analysis.ipynb)
 
-3. Topic Modeling: (Saved in analysis folder -- [code](IMDB Movies topic modeling using sklearn.ipynb)
+3. Topic Modeling: (Saved in analysis folder -- [code](IMDB%20Movies%20topic%20modeling%20using%20sklearn.ipynb)
 
 4. Similarity Calculation: We used two bases to calculate similarity
 
-* Key words: [code](IMDB Movies similarity from key words.ipynb)
+* Key words: [code](IMDB%20Movies%20similarity%20from%20key%20words.ipynb)
 
-* Plot summaries: [code](IMDB Movies similarity from plot summaries.ipynb)
+* Plot summaries: [code](IMDB%20Movies%20similarity%20from%20plot%20summaries.ipynb)
 
 
 ## Evaluation Metrics: 
